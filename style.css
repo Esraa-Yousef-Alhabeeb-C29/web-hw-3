@@ -1,0 +1,192 @@
+
+body{
+  background-image: url(./img/bg.jpg);
+  
+  font-family: 'Lemonada', cursive;
+}
+
+.z2 {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .menu {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.514);
+    padding: 25px;
+    height: 400px;
+    width: 650px;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.z1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding-bottom: 10px;
+}
+.b-a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.title {
+  text-align: center;
+}
+.a-li {
+  display: inline;
+  padding: 15px;
+ 
+}
+.imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  margin: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.menu-title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+h4 {
+  text-align: center;
+}
+
+
+.p2{
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+ 
+}
+
+.img2{
+  height: 30px;
+  width: 30px;
+ display: flex;
+ justify-content: space-between;
+}
+
+h1 {
+  color: #FFF;
+  font-family: tahoma;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1.5;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 550px;
+}
+
+h1 span {
+  font-size: 40px;
+  margin-left: 40px;
+}
+
+.message {
+  background-color: #FFF;
+  color: #000;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  position: absolute;
+  padding-left: 0.5rem;
+  top: 0.2rem;
+  left: 270px;
+  animation: openclose 5s ease-in-out;}
+  .word1, .word2, .word3 {
+    font-family: tahoma;
+  }
+  
+  @keyframes openclose {
+    0% {
+      top: 0.2rem;
+      width: 0;
+    }
+    5% {
+      width: 0;
+    }
+    15% {
+      width: 230px;
+    }
+    30% {
+      top: 0.2rem;
+      width: 230px;
+    }
+    33% {
+      top: 0.2rem;
+      width: 0;
+    }
+    35% {
+      top: 0.2rem;
+      width: 0;
+    }
+    38% {
+      top: -4.5rem;
+      
+    }
+    48% {
+      top: -4.5rem;
+      width: 190px;
+    }
+    62% {
+      top: -4.5rem;
+      width: 190px;
+    }
+    66% {
+      top: -4.5rem;
+      width: 0;
+      text-indent: 0;
+    }
+    71% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    86% {
+      top: -9rem;
+      width: 285px;
+    }
+    95% {
+      top: -9rem;
+      width: 285px;
+    }
+    98% {
+      top: -9rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    100% {
+      top: 0;
+      width: 0;
+      text-indent: 0;
+    }
+  }
